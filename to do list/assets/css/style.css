@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.countainer {
+    width: 1920px;
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.block h1 {    
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.block_name {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+}
+
+.block_age {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.age {
+    font-weight: 600;
+}
+
+.name_inp {
+    width: 250px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.inp_age {
+    width: 250px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 2px;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.item {
+    width: 690px;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.item_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_text {
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_bottom {
+    width: 690px;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.item_bottom_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_img {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.div_item_bottom_No {
+    width: 23px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_item_bottom_student {
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_year {
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+.modal_countainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 20;
+    display: none;
+}
+
+.modal_block {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(198, 192, 192);
+    z-index: 25;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.modal_block input {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.modal_block button {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.modal_block button:active {
+    background-color: green;
+    transition: .3 ease;
+}
+
